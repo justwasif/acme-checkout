@@ -1,0 +1,24 @@
+{
+  "name": "acme-checkout",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "trigger-error": "node scripts/trigger-error.mjs"
+  },
+  "dependencies": {
+    "@sentry/nextjs": "^8.41.0",
+    "next": "14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "@types/react": "^18.3.14",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
