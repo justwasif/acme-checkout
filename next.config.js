@@ -7,7 +7,7 @@ const nextConfig = {
 
 module.exports = withSentryConfig(nextConfig, {
   org: process.env.SENTRY_ORG,
-  project: process.env.SENTRY_PROJECT,
+  project: 'error-to-fix',
   silent: !process.env.CI,
   widenClientFileUpload: true,
   tunnelRoute: '/monitoring',
